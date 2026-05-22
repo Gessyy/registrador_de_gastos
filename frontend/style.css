@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffeef5;
+    color: #444;
+}
+
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+h1{
+    text-align: center;
+    color: #ff4f8b;
+    font-size: 3rem;
+}
+
+.subtitulo{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #777;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex: 1;
+    min-width: 220px;
+    padding: 25px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.receita{
+    background: #ff7eb3;
+}
+
+.despesa{
+    background: #ffb3c6;
+}
+
+.saldo{
+    background: #c77dff;
+}
+
+.card h2{
+    margin-bottom: 10px;
+}
+
+.card p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.formulario{
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.formulario h2{
+    margin-bottom: 20px;
+    color: #ff4f8b;
+}
+
+.formulario input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #ffd6e7;
+    border-radius: 12px;
+    outline: none;
+}
+
+.formulario button{
+    width: 100%;
+    padding: 15px;
+    background: #ff4f8b;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario button:hover{
+    background: #ff2e74;
+}
+
+.lista{
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.lista h2{
+    color: #ff4f8b;
+    margin-bottom: 20px;
+}
+
+.lista ul{
+    list-style: none;
+}
+
+.lista li{
+    background: #fff0f6;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.listas{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.listas .lista{
+    flex: 1;
+}

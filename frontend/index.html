@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fluur</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Fluur</h1>
+
+        <p class="subtitulo">
+            Controle financeiro
+        </p>
+
+
+
+      
+        <div class="cards">
+
+            <div class="card receita">
+
+                <h3>Receitas 💸</h3>
+
+                <p id="total-receitas">
+                    R$ 0
+                </p>
+
+            </div>
+
+
+            <div class="card despesa">
+
+                <h3>Despesas 🧾</h3>
+
+                <p id="total-despesas">
+                    R$ 0
+                </p>
+
+            </div>
+
+
+            <div class="card saldo">
+
+                <h3>Saldo ✨</h3>
+
+                <p id="saldo-total">
+                    R$ 0
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        
+        <div class="formulario">
+
+            <h2>Nova Receita 💖</h2>
+
+            <input
+                type="text"
+                id="descricao"
+                placeholder="Descrição"
+            >
+
+            <input
+                type="number"
+                id="valor"
+                placeholder="Valor"
+            >
+
+            <input
+                type="text"
+                id="categoria"
+                placeholder="Categoria"
+            >
+
+            <button onclick="cadastrarReceita()">
+                Adicionar Receita
+            </button>
+
+        </div>
+
+
+
+        
+        <div class="formulario">
+
+            <h2>Nova Despesa 🌸</h2>
+
+            <input
+                type="text"
+                id="descricao-despesa"
+                placeholder="Descrição"
+            >
+
+            <input
+                type="number"
+                id="valor-despesa"
+                placeholder="Valor"
+            >
+
+            <input
+                type="text"
+                id="categoria-despesa"
+                placeholder="Categoria"
+            >
+
+            <button onclick="cadastrarDespesa()">
+                Adicionar Despesa
+            </button>
+
+        </div>
+
+
+
+        
+        <div class="listas">
+
+            
+            <div class="lista">
+
+                <h2>Minhas Receitas 💖</h2>
+
+                <ul id="lista-receitas"></ul>
+
+            </div>
+
+
+
+            
+            <div class="lista">
+
+                <h2>Minhas Despesas 🌸</h2>
+
+                <ul id="lista-despesas"></ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
